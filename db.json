@@ -1,0 +1,157 @@
+{
+    "batches": [
+        {
+            "batch_id": 1,
+            "grape_variety": "Cabernet Sauvignon",
+            "harvest_date": "2022-09-15",
+            "grape_quantity": 1200,
+            "vineyard_origin": "Vineyard La Esperanza",
+            "current_state": "In fermentation",
+            "process_start_date": "2022-11-01",
+            "final_volume": 800
+        },
+        {
+            "batch_id": 2,
+            "grape_variety": "Chardonnay",
+            "harvest_date": "2022-10-01",
+            "grape_quantity": 900,
+            "vineyard_origin": "Vineyard El Sol",
+            "current_state": "In aging",
+            "process_start_date": "2022-12-05",
+            "final_volume": 650
+        },
+        {
+            "batch_id": 3,
+            "grape_variety": "Merlot",
+            "harvest_date": "2022-09-25",
+            "grape_quantity": 1500,
+            "vineyard_origin": "Vineyard Las Brisas",
+            "current_state": "Bottled",
+            "process_start_date": "2023-01-10",
+            "final_volume": 900
+        }
+    ],
+    "fermentation": [
+        {
+            "fermentation_id": 1,
+            "batch_id": 1,
+            "start_date": "2022-11-05",
+            "end_date": "2022-12-01",
+            "average_temperature": 22.5,
+            "initial_density": 1.090,
+            "final_density": 0.998,
+            "initial_ph": 3.4,
+            "final_ph": 3.2,
+            "residual_sugar": 2.1
+        },
+        {
+            "fermentation_id": 2,
+            "batch_id": 2,
+            "start_date": "2022-12-10",
+            "end_date": "2023-01-05",
+            "average_temperature": 20.8,
+            "initial_density": 1.085,
+            "final_density": 0.999,
+            "initial_ph": 3.5,
+            "final_ph": 3.3,
+            "residual_sugar": 1.9
+        },
+        {
+            "fermentation_id": 3,
+            "batch_id": 3,
+            "start_date": "2022-12-01",
+            "end_date": "2023-01-15",
+            "average_temperature": 21.2,
+            "initial_density": 1.075,
+            "final_density": 1.000,
+            "initial_ph": 3.3,
+            "final_ph": 3.1,
+            "residual_sugar": 1.7
+        }
+    ],
+    "pressing": [
+        {
+            "pressing_id": 1,
+            "batch_id": 1,
+            "pressing_date": "2022-09-16",
+            "must_volume": 950,
+            "press_type": "Mechanical press",
+            "pressure_applied": 2.5
+        },
+        {
+            "pressing_id": 2,
+            "batch_id": 2,
+            "pressing_date": "2022-10-02",
+            "must_volume": 700,
+            "press_type": "Manual press",
+            "pressure_applied": 3.0
+        },
+        {
+            "pressing_id": 3,
+            "batch_id": 3,
+            "pressing_date": "2022-09-26",
+            "must_volume": 1200,
+            "press_type": "Pneumatic press",
+            "pressure_applied": 2.8
+        }
+    ],
+    "clarification": [
+        {
+            "clarification_id": 1,
+            "batch_id": 1,
+            "clarification_date": "2022-11-25",
+            "products_used": "Bentonite",
+            "clarification_method": "Decantation",
+            "filtering_date": "2022-12-05",
+            "clarity_level": 0.9
+        },
+        {
+            "clarification_id": 2,
+            "batch_id": 2,
+            "clarification_date": "2022-12-20",
+            "products_used": "Gelatin",
+            "clarification_method": "Filtration",
+            "filtering_date": "2023-01-05",
+            "clarity_level": 0.8
+        },
+        {
+            "clarification_id": 3,
+            "batch_id": 3,
+            "clarification_date": "2022-12-01",
+            "products_used": "Egg whites",
+            "clarification_method": "Centrifugation",
+            "filtering_date": "2023-01-10",
+            "clarity_level": 0.7
+        }
+    ],
+    "aging": [
+        {
+            "aging_id": 1,
+            "batch_id": 1,
+            "barrel_type": "French oak",
+            "start_date": "2022-12-10",
+            "end_date": "2023-06-10",
+            "aging_duration": 6,
+            "inspections_done": 4
+        },
+        {
+            "aging_id": 2,
+            "batch_id": 2,
+            "barrel_type": "American oak",
+            "start_date": "2022-12-20",
+            "end_date": "2023-07-20",
+            "aging_duration": 7,
+            "inspections_done": 5
+        },
+        {
+            "aging_id": 3,
+            "batch_id": 3,
+            "barrel_type": "French oak",
+            "start_date": "2023-01-05",
+            "end_date": "2023-07-05",
+            "aging_duration": 6,
+            "inspections_done": 3
+        }
+    ]
+}
+
