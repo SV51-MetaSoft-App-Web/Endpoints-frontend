@@ -1,7 +1,7 @@
 {
     "batches": [
         {
-          "batch_id": 1,
+          "id": 1,
           "grape_variety": "Cabernet Sauvignon",
           "harvest_date": "2023-08-15",
           "grape_quantity": 1200,
@@ -11,7 +11,7 @@
           "final_volume": 900
         },
         {
-          "batch_id": 2,
+          "id": 2,
           "grape_variety": "Chardonnay",
           "harvest_date": "2023-09-10",
           "grape_quantity": 1500,
@@ -21,7 +21,7 @@
           "final_volume": 1100
         },
         {
-          "batch_id": 3,
+          "id": 3,
           "grape_variety": "Merlot",
           "harvest_date": "2023-07-20",
           "grape_quantity": 1000,
@@ -31,7 +31,7 @@
           "final_volume": 800
         },
         {
-          "batch_id": 4,
+          "id": 4,
           "grape_variety": "Pinot Noir",
           "harvest_date": "2023-10-05",
           "grape_quantity": 1300,
@@ -41,7 +41,7 @@
           "final_volume": 950
         },
         {
-          "batch_id": 5,
+          "id": 5,
           "grape_variety": "Syrah",
           "harvest_date": "2023-09-25",
           "grape_quantity": 1400,
@@ -53,7 +53,7 @@
       ],      
     "fermentation": [
         {
-          "fermentation_id": 101,
+          "id": 101,
           "batch_id": 1,
           "start_date": "2023-08-16",
           "end_date": "2023-08-22",
@@ -65,7 +65,7 @@
           "residual_sugar": 2.5
         },
         {
-          "fermentation_id": 102,
+          "id": 102,
           "batch_id": 2,
           "start_date": "2023-09-12",
           "end_date": "2023-09-18",
@@ -77,7 +77,7 @@
           "residual_sugar": 1.8
         },
         {
-          "fermentation_id": 103,
+          "id": 103,
           "batch_id": 3,
           "start_date": "2023-07-21",
           "end_date": "2023-07-27",
@@ -89,7 +89,7 @@
           "residual_sugar": 3.0
         },
         {
-          "fermentation_id": 104,
+          "id": 104,
           "batch_id": 4,
           "start_date": "2023-10-06",
           "end_date": "2023-10-12",
@@ -101,7 +101,7 @@
           "residual_sugar": 2.1
         },
         {
-          "fermentation_id": 105,
+          "id": 105,
           "batch_id": 5,
           "start_date": "2023-09-26",
           "end_date": "2023-10-02",
@@ -116,7 +116,7 @@
   
     "pressing": [
         {
-          "pressing_id": 201,
+          "id": 201,
           "batch_id": 1,
           "pressing_date": "2023-08-15",
           "must_volume": 850,
@@ -124,7 +124,7 @@
           "applied_pressure": 1.2
         },
         {
-          "pressing_id": 202,
+          "id": 202,
           "batch_id": 2,
           "pressing_date": "2023-09-11",
           "must_volume": 1200,
@@ -132,7 +132,7 @@
           "applied_pressure": 1.5
         },
         {
-          "pressing_id": 203,
+          "id": 203,
           "batch_id": 3,
           "pressing_date": "2023-07-20",
           "must_volume": 950,
@@ -140,7 +140,7 @@
           "applied_pressure": 0.9
         },
         {
-          "pressing_id": 204,
+          "id": 204,
           "batch_id": 4,
           "pressing_date": "2023-10-04",
           "must_volume": 1100,
@@ -148,7 +148,7 @@
           "applied_pressure": 1.3
         },
         {
-          "pressing_id": 205,
+          "id": 205,
           "batch_id": 5,
           "pressing_date": "2023-09-24",
           "must_volume": 1000,
@@ -158,7 +158,7 @@
     ],
     "clarification": [
     {
-      "clarification_id": 301,
+      "id": 301,
       "batch_id": 1,
       "clarification_date": "2023-08-20",
       "products_used": "Bentonite",
@@ -167,7 +167,7 @@
       "clarity_level": 1.5
     },
     {
-      "clarification_id": 302,
+      "id": 302,
       "batch_id": 2,
       "clarification_date": "2023-09-15",
       "products_used": "Gelatin",
@@ -176,7 +176,7 @@
       "clarity_level": 0.8
     },
     {
-      "clarification_id": 303,
+      "id": 303,
       "batch_id": 3,
       "clarification_date": "2023-07-25",
       "products_used": "Egg whites",
@@ -185,7 +185,7 @@
       "clarity_level": 1.2
     },
     {
-      "clarification_id": 304,
+      "id": 304,
       "batch_id": 4,
       "clarification_date": "2023-10-10",
       "products_used": "Bentonite",
@@ -194,7 +194,7 @@
       "clarity_level": 1.0
     },
     {
-      "clarification_id": 305,
+      "id": 305,
       "batch_id": 5,
       "clarification_date": "2023-09-28",
       "products_used": "Isinglass",
@@ -205,7 +205,7 @@
   ],
   "aging": [
     {
-      "aging_id": 401,
+      "id": 401,
       "batch_id": 1,
       "barrel_type": "French Oak",
       "start_date": "2023-08-30",
@@ -215,7 +215,7 @@
       "inspection_result": "Balanced aroma and flavor"
     },
     {
-      "aging_id": 402,
+      "id": 402,
       "batch_id": 2,
       "barrel_type": "American Oak",
       "start_date": "2023-09-20",
@@ -225,7 +225,7 @@
       "inspection_result": "Strong oak flavor, good structure"
     },
     {
-      "aging_id": 403,
+      "id": 403,
       "batch_id": 3,
       "barrel_type": "Stainless Steel",
       "start_date": "2023-07-28",
@@ -235,7 +235,7 @@
       "inspection_result": "Fresh and crisp taste"
     },
     {
-      "aging_id": 404,
+      "id": 404,
       "batch_id": 4,
       "barrel_type": "Hungarian Oak",
       "start_date": "2023-10-18",
@@ -245,7 +245,7 @@
       "inspection_result": "Complex aroma with fruity notes"
     },
     {
-      "aging_id": 405,
+      "id": 405,
       "batch_id": 5,
       "barrel_type": "French Oak",
       "start_date": "2023-09-30",

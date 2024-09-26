@@ -19,4 +19,23 @@ GET /fermentation
 GET /pressing
 GET /clarification
 GET /aging
+
+POST /batches
+POST /fermentation
+POST /pressing
+POST /clarification
+POST /aging
+
+PUT /batches/:id
+PUT /fermentation/:id
+PUT /pressing/:id
+PUT /clarification/:id
+PUT /aging/:id
+
+DELETE /batches/:id
+DELETE /fermentation/:id
+DELETE /pressing/:id
+DELETE /clarification/:id
+DELETE /aging/:id
+
 ````
